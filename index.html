@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>玖壹党</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .group-name {
+            font-family: "楷体", KaiTi, serif;
+            font-size: 2.5em;
+            color: #4a4a4a;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .disclaimer {
+            background-color: #f0f0f0;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #666;
+            margin: 20px 0;
+            text-align: center;
+            border: 1px dashed #ddd;
+        }
+        /* 旗帜徽章展示区 */
+        .symbols {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .symbol-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .symbol-card:hover {
+            transform: translateY(-5px);
+        }
+        .symbol-img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin: 10px auto;
+            border-radius: 5px;
+            background: #f8f8f8;
+            padding: 10px;
+        }
+        .symbol-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 15px 0 5px;
+            font-size: 1.2em;
+        }
+        /* 斜体简介 */
+        .intro {
+            font-family: "华文行楷", "STXingkai", serif;
+            font-style: italic;
+            font-size: 1.1em;
+            line-height: 1.8;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            margin: 30px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            color: #555;
+            text-align: center;
+            border-left: 4px solid #a0c4ff;
+        }
+        .motto {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            margin: 30px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .contact {
+            text-align: center;
+            margin: 40px 0;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .wechat-id {
+            font-weight: bold;
+            color: #1a73e8;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+        .qrcode {
+            width: 150px;
+            margin: 15px auto;
+            border: 1px solid #eee;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="group-name">玖壹党</div>
+        <p>成立于2025年4月17日</p>
+    </div>
+
+    <div class="disclaimer">
+        ※ 本页面所有图形标识均为原创设计，与现实任何组织无关 ※<br>
+        ※ 严格遵守中国法律法规，仅供娱乐交流使用 ※
+    </div>
+
+    <!-- 旗帜徽章展示区 -->
+    <div class="symbols">
+        <div class="symbol-card">
+            <div class="symbol-title">党旗</div>
+            <!-- 请替换图片 -->
+            <img src="Screenshot_20250523-232824_EDIT_1748014188508.png" alt="玖壹团旗帜" class="symbol-img">
+        </div>
+        <div class="symbol-card">
+            <div class="symbol-title">党徽</div>
+            <!-- 请替换图片 -->
+            <img src="Screenshot_20250523-232831_EDIT_1748014135009_EDIT_1748014494848.png" alt="玖壹团徽章" class="symbol-img">
+        </div>
+    </div>
+
+    <!-- 斜体简介 -->
+    <div class="intro">
+        <h2>关于我们</h2>
+        <p>玖壹党是由志趣相投的人组成的党派<br>
+        我们像夜空中的星辰彼此照亮<br>
+        在知识的海洋里共同航行<br>
+        这里没有界限，只有好奇心的碰撞<br>
+        和思想火花的绽放</p>
+    </div>
+
+    <div class="motto">
+    <h2 style="font-family: 'HYShiGuangTi', 'STXingkai', cursive; 
+                font-weight: normal;
+                letter-spacing: 5px;
+                color: #3a5169;
+                margin-bottom: 25px;">
+        党词
+    </h2>
+    <div style="font-family: 'STKaiti', 'KaiTi', serif;
+                font-style: italic;
+                font-size: 1.25em;
+                line-height: 2.2;
+                letter-spacing: 1px;
+                color: #555;
+                text-align: center;
+                background: linear-gradient(to right, #f8f9fa, white 15%, white 85%, #f8f9fa);
+                padding: 15px 0;
+                border-radius: 5px;">
+        <p style="margin: 0; text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);">光明奥秘，玖壹探寻。</p>
+        <p style="margin: 0; text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);">真理永恒，玖壹传承。</p>
+        <p style="margin: 0; text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);">博爱无私，玖壹奉献。</p>
+        <p style="margin: 0; text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);">智慧引领，玖壹指引。</p>
+        <p style="margin: 0; text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);">世界和平，玖壹祈愿。</p>
+        <p style="margin: 0; text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.05);">大爱无疆，玖壹同行。</p>
+    </div>
+</div>
+    </div>
+
+    <div class="contact">
+        <h2>加入我们</h2>
+        <p>欢迎添加微信交流：</p>
+        <p>微信号：<span class="wechat-id">xxyyds666665</span></p>
+        <p style="font-size:12px; color:#999; margin-top:10px;">(添加时请备注"玖壹团")</p>
+    </div>
+</body>
+      </html>
